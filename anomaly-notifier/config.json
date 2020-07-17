@@ -1,0 +1,5 @@
+{
+    "THERMOSTAT_API_URL": "https://smarthome.com/device/thermostat",
+    "SMARTHOME_REGION":"ap-south-1",
+    "GATEWAY_ENDPOINT": "https://smarthome.com/device/gateway"
+}
