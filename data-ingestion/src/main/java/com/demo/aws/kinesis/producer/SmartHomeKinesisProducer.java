@@ -34,8 +34,8 @@ public class SmartHomeKinesisProducer {
             System.err.println(regionName + " is not a valid AWS region.");
             System.exit(1);
         }
-        final String accessKey = "AKIA5RLBY4LK7WTX5JWV";
-        final String secretKey = "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";
+        final String accessKey = "access-key";
+        final String secretKey = "secret-key";
         BasicAWSCredentials awsCredentials = new BasicAWSCredentials(accessKey, secretKey);
 
         AmazonKinesis kinesis = AmazonKinesisClient.builder()
